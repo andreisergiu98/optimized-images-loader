@@ -1,6 +1,6 @@
 {
-  "name": "optimized-images-loader",
-  "version": "0.4.0",
+  "name": "@andreisergiu98/optimized-images-loader",
+  "version": "0.5.0",
   "description": "Automatically optimize images in webpack projects.",
   "keywords": [
     "webpack",
@@ -9,7 +9,7 @@
     "optimize"
   ],
   "author": "Cyril Wanner <info@cyr.li>",
-  "homepage": "https://github.com/cyrilwanner/optimized-images-loader#readme",
+  "homepage": "https://github.com/andreisergiu98/optimized-images-loader#readme",
   "license": "MIT",
   "scripts": {
     "build": "npm run build:js && npm run build:types",
@@ -76,9 +76,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cyrilwanner/optimized-images-loader.git"
+    "url": "git+https://github.com/andreisergiu98/optimized-images-loader.git"
   },
   "bugs": {
-    "url": "https://github.com/cyrilwanner/optimized-images-loader/issues"
+    "url": "https://github.com/andreisergiu98/optimized-images-loader/issues"
   }
 }
