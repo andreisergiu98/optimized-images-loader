@@ -7,7 +7,7 @@ export async function compress(image: Sharp, options?: ImageminOptions): Promise
   const plugins = [];
 
   if (options?.mozjpeg && options.mozjpeg !== false) {
-    const mozjpeg = (await import('imagemin-mozjpeg')).default;
+    const mozjpeg = require('imagemin-mozjpeg');
     if (options.mozjpeg === true) {
       plugins.push(mozjpeg());
     } else {
@@ -16,7 +16,7 @@ export async function compress(image: Sharp, options?: ImageminOptions): Promise
   }
 
   if (options?.optipng && options.optipng !== false) {
-    const optipng = (await import('imagemin-optipng')).default;
+    const optipng = require('imagemin-optipng');
     if (options.optipng === true) {
       plugins.push(optipng());
     } else {
@@ -25,7 +25,7 @@ export async function compress(image: Sharp, options?: ImageminOptions): Promise
   }
 
   if (options?.pngquant && options.pngquant !== false) {
-    const pngquant = (await import('imagemin-pngquant')).default;
+    const pngquant = require('imagemin-pngquant');
     if (options.pngquant === true) {
       plugins.push(pngquant());
     } else {
