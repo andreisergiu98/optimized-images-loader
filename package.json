@@ -1,6 +1,6 @@
 {
   "name": "@andreisergiu98/optimized-images-loader",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Automatically optimize images in webpack projects.",
   "keywords": [
     "webpack",
